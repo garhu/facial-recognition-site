@@ -343,7 +343,8 @@ sup {
 }
 
 .content-stuff {
-  width: 50%;
+  width: 40%;
+  height: auto;
 }
 
 .content-stuff p {
@@ -390,6 +391,27 @@ hr {
 
 hr.major {
   margin: 5rem 0;
+}
+
+.image-div {
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+.image-div img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.image-div p {
+  font-size: 14px;
+  line-height: normal;
 }
 
 .align-left {
@@ -454,6 +476,11 @@ hr {
   flex-wrap: wrap;
   box-sizing: border-box;
   align-items: stretch;
+}
+
+.major2 h1 {
+  font-size: 4rem;
+  font-family: "PT Serif", serif;
 }
 
 .row > * {
@@ -3033,10 +3060,6 @@ header > .date {
   margin: 0 0 1rem 0;
   position: relative;
 }
-/*
-header > p {
-  font-style: italic;
-} */
 
 header > h1 + p {
   font-size: 1.1rem;
@@ -3064,6 +3087,11 @@ header.major {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+header.major2 {
+  margin: 0 0 4rem 0;
+  text-align: center;
 }
 
 header.major > :last-child {
